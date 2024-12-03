@@ -12,13 +12,30 @@ a{
     color: #D3D2AE;
 }
 
+
 body{
     background: #F3F2E2;
     margin: 0;
 }
 
 h1{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, Helvetica;
+    text-align: center;
+    color: #26301D;
+    font-weight: bold;
+}
+
+h2{
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, Helvetica;
+    text-align: left;
+    color: #26301D;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, Helvetica;
     text-align: left;
     color: #26301D;
