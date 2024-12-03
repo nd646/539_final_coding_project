@@ -5,6 +5,7 @@
 
 .skip a:focus{
     top: 0;
+    left: 10px;
 }
 
 a{
@@ -93,4 +94,12 @@ header nav ul{
 
 
 
-/*@media only screen and (min-width: 1440px) {}*/
+@media only screen and (min-width: 1440px) {
+    .container{
+        padding: 30px;
+    }
+    img{
+        width: 50%;
+        justify-content: center;
+    }
+}
