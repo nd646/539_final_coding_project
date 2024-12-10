@@ -1,4 +1,8 @@
+/* Nithya Duggaraju Final Coding Project SI 539*/
+
+/* Styling and Default Mobile View*/
 .skip a{
+    background-color: black;
     position: absolute;
     top: -40px;
   }
@@ -50,7 +54,6 @@ footer{
 }
 
 img{
-    display: flex;
     width: 100%;
     justify-content: left;
     position: relative;
@@ -105,18 +108,53 @@ header nav ul{
 
 .container{
     padding: 15px;
-    display: grid;
-    grid-template-rows: 4fr;
+}
+
+@media all and (prefers-reduced-motion: reduce){
+    img{
+        animation: none;
+    }
 }
 
 
-
+/*Desktop View*/
 @media only screen and (min-width: 1440px) {
-    .container{
+    .sequoia_content{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+
+    .container_s{
         padding: 30px;
     }
-    img{
-        width: 50%;
-        justify-content: center;
+
+    .yosemite_content{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
     }
+
+    .container_y{
+        padding: 30px;
+    }
+
+    .container img{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+
 }
